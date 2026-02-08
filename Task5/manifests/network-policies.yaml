@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: non-admin-api-allow
+  name: allow-front-to-backend
   namespace: task5
 spec:
   podSelector:
@@ -21,7 +21,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: admin-api-allow
+  name: allow-admin-front-to-admin-backend
   namespace: task5
 spec:
   podSelector:
@@ -37,31 +37,3 @@ spec:
     ports:
     - protocol: TCP
       port: 80
----
-apiVersion: networking.k8s.io/v1
-kind: NetworkPolicy
-metadata:
-  name: front-end-allow
-  namespace: task5
-spec:
-  podSelector:
-    matchLabels:
-      role: front-end
-  policyTypes:
-  - Ingress
-  ingress:
-  - {}
----
-apiVersion: networking.k8s.io/v1
-kind: NetworkPolicy
-metadata:
-  name: admin-front-end-allow
-  namespace: task5
-spec:
-  podSelector:
-    matchLabels:
-      role: admin-front-end
-  policyTypes:
-  - Ingress
-  ingress:
-  - {}

@@ -1,10 +1,5 @@
 #!/bin/bash
 
-set -e
-
-echo "Создание kubeconfig файлов для пользователей"
-echo "============================================="
-
 CLUSTER_NAME="propdevelopment-cluster"
 CLUSTER_SERVER=$(kubectl config view --minify -o jsonpath='{.clusters[0].cluster.server}')
 CLUSTER_CA=$(kubectl config view --raw --minify --flatten -o jsonpath='{.clusters[0].cluster.certificate-authority-data}')
@@ -12,8 +7,7 @@ CLUSTER_CA=$(kubectl config view --raw --minify --flatten -o jsonpath='{.cluster
 USERS=("developer-ivan" "devops-maria")
 
 for USER in "${USERS[@]}"; do
-    echo ""
-    echo "Создание kubeconfig для пользователя: $USER"
+    echo "Создание kubeconfig для: $USER"
     
     KUBECONFIG_FILE="$USER/$USER-kubeconfig.yaml"
     
@@ -32,11 +26,6 @@ for USER in "${USERS[@]}"; do
         --user="$USER"
     
     kubectl config --kubeconfig="$KUBECONFIG_FILE" use-context "$USER@$CLUSTER_NAME"
-    
-    echo "Kubeconfig для пользователя $USER создан: $KUBECONFIG_FILE"
 done
 
-echo ""
-echo "Kubeconfig файлы успешно созданы"
-echo ""
-echo "Следующий шаг: выполните скрипт 03-create-roles.sh для создания ролей"
+echo "Kubeconfig файлы созданы"
