@@ -1,0 +1,248 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
+  <diagram name="Безопасность данных" id="09lyJIQlL7SkN9KQhURV">
+    <mxGraphModel dx="4253" dy="2004" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bim-Bf87GWusyt0ahSWG-70" edge="1" parent="1" source="bim-Bf87GWusyt0ahSWG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="bim-Bf87GWusyt0ahSWG-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="150.49997456868493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1" value="Безопасность данных&#xa;PropDevelopment" vertex="1">
+          <mxGeometry height="200" width="200" x="485" y="364" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-15" edge="1" parent="1" source="bim-Bf87GWusyt0ahSWG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="bim-Bf87GWusyt0ahSWG-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-27" edge="1" parent="1" source="bim-Bf87GWusyt0ahSWG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="bim-Bf87GWusyt0ahSWG-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-61" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="248" width="571" x="-165" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-42" parent="bim-Bf87GWusyt0ahSWG-61" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1" value="Секретные данные" vertex="1">
+          <mxGeometry height="60" width="160" x="293" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-43" edge="1" parent="bim-Bf87GWusyt0ahSWG-61" source="bim-Bf87GWusyt0ahSWG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="bim-Bf87GWusyt0ahSWG-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-44" parent="bim-Bf87GWusyt0ahSWG-61" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;verticalAlign=top;fontSize=11" value="Учетные данные пользователей&#xa;(логины, пароли, токены)&#xa;Ключи шифрования&#xa;Данные интеграций с госорганами&#xa;Финансовые данные компании" vertex="1">
+          <mxGeometry height="90" width="200" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-45" edge="1" parent="bim-Bf87GWusyt0ahSWG-61" source="bim-Bf87GWusyt0ahSWG-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-46" parent="bim-Bf87GWusyt0ahSWG-61" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1" value="Риски" vertex="1">
+          <mxGeometry height="40" width="120" x="313" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-47" edge="1" parent="bim-Bf87GWusyt0ahSWG-61" source="bim-Bf87GWusyt0ahSWG-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bim-Bf87GWusyt0ahSWG-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-48" parent="bim-Bf87GWusyt0ahSWG-61" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1" value="Утечка данных&#xa;[Критический]" vertex="1">
+          <mxGeometry height="50" width="90" x="154" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-49" parent="bim-Bf87GWusyt0ahSWG-61" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1" value="Потеря данных&#xa;[Критический]" vertex="1">
+          <mxGeometry height="50" width="90" x="371" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-50" parent="bim-Bf87GWusyt0ahSWG-61" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1" value="Искажение данных&#xa;[Критический]" vertex="1">
+          <mxGeometry height="50" width="90" x="262" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-51" parent="bim-Bf87GWusyt0ahSWG-61" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1" value="Обесценивание данных&#xa;[Критический]" vertex="1">
+          <mxGeometry height="50" width="90" x="481" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-52" edge="1" parent="bim-Bf87GWusyt0ahSWG-61" source="bim-Bf87GWusyt0ahSWG-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="153" />
+              <mxPoint x="202" y="153" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-53" edge="1" parent="bim-Bf87GWusyt0ahSWG-61" source="bim-Bf87GWusyt0ahSWG-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="386" y="168" />
+              <mxPoint x="416" y="168" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-54" edge="1" parent="bim-Bf87GWusyt0ahSWG-61" source="bim-Bf87GWusyt0ahSWG-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="363" y="168" />
+              <mxPoint x="313" y="168" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-55" edge="1" parent="bim-Bf87GWusyt0ahSWG-61" source="bim-Bf87GWusyt0ahSWG-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="417" y="153" />
+              <mxPoint x="526" y="153" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-62" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="229" width="525" x="805" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-26" parent="bim-Bf87GWusyt0ahSWG-62" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontStyle=1" value="Конфиденциальные данные" vertex="1">
+          <mxGeometry height="60" width="160" x="74" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-28" parent="bim-Bf87GWusyt0ahSWG-62" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;verticalAlign=top;fontSize=11" value="Персональные данные клиентов&#xa;(ФИО, телефон, email)&#xa;Данные о сделках&#xa;Финансовая информация клиентов&#xa;История платежей ЖКУ" vertex="1">
+          <mxGeometry height="90" width="200" x="279" y="3" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-29" edge="1" parent="bim-Bf87GWusyt0ahSWG-62" source="bim-Bf87GWusyt0ahSWG-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-30" parent="bim-Bf87GWusyt0ahSWG-62" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1" value="Риски" vertex="1">
+          <mxGeometry height="40" width="120" x="94" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-31" edge="1" parent="bim-Bf87GWusyt0ahSWG-62" source="bim-Bf87GWusyt0ahSWG-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bim-Bf87GWusyt0ahSWG-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-32" parent="bim-Bf87GWusyt0ahSWG-62" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1" value="Утечка данных&#xa;[Критический]" vertex="1">
+          <mxGeometry height="50" width="90" y="179" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-33" parent="bim-Bf87GWusyt0ahSWG-62" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1" value="Потеря данных&#xa;[Критический]" vertex="1">
+          <mxGeometry height="50" width="90" x="109" y="179" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-34" parent="bim-Bf87GWusyt0ahSWG-62" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1" value="Искажение данных&#xa;[Критический]" vertex="1">
+          <mxGeometry height="50" width="90" x="218" y="179" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-35" parent="bim-Bf87GWusyt0ahSWG-62" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10" value="Некачественные данные&#xa;[Значительный]" vertex="1">
+          <mxGeometry height="50" width="90" x="331" y="179" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-36" parent="bim-Bf87GWusyt0ahSWG-62" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10" value="Обесценивание данных&#xa;[Значительный]" vertex="1">
+          <mxGeometry height="50" width="90" x="435" y="179" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-37" edge="1" parent="bim-Bf87GWusyt0ahSWG-62" source="bim-Bf87GWusyt0ahSWG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-38" edge="1" parent="bim-Bf87GWusyt0ahSWG-62" source="bim-Bf87GWusyt0ahSWG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-39" edge="1" parent="bim-Bf87GWusyt0ahSWG-62" source="bim-Bf87GWusyt0ahSWG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-40" edge="1" parent="bim-Bf87GWusyt0ahSWG-62" source="bim-Bf87GWusyt0ahSWG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-41" edge="1" parent="bim-Bf87GWusyt0ahSWG-62" source="bim-Bf87GWusyt0ahSWG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-63" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="293" width="373" x="874" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-65" connectable="0" parent="bim-Bf87GWusyt0ahSWG-63" style="group" value="" vertex="1">
+          <mxGeometry height="216" width="462" x="34" y="69" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-14" parent="bim-Bf87GWusyt0ahSWG-65" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1" value="Внутренние данные" vertex="1">
+          <mxGeometry height="60" width="160" x="64" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-16" parent="bim-Bf87GWusyt0ahSWG-65" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;verticalAlign=top;fontSize=11" value="Данные о бронированиях&#xa;Результаты онлайн-туров&#xa;Статистика по продажам&#xa;Аналитические отчеты" vertex="1">
+          <mxGeometry height="70" width="180" x="282" y="49" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-17" edge="1" parent="bim-Bf87GWusyt0ahSWG-65" source="bim-Bf87GWusyt0ahSWG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-19" edge="1" parent="bim-Bf87GWusyt0ahSWG-65" source="bim-Bf87GWusyt0ahSWG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bim-Bf87GWusyt0ahSWG-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-64" connectable="0" parent="bim-Bf87GWusyt0ahSWG-65" style="group" value="" vertex="1">
+          <mxGeometry height="128" width="308" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-18" parent="bim-Bf87GWusyt0ahSWG-64" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1" value="Риски" vertex="1">
+          <mxGeometry height="40" width="120" x="83" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-20" parent="bim-Bf87GWusyt0ahSWG-64" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10" value="Утечка данных&#xa;[Значительный]" vertex="1">
+          <mxGeometry height="50" width="90" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-21" parent="bim-Bf87GWusyt0ahSWG-64" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10" value="Искажение данных&#xa;[Значительный]" vertex="1">
+          <mxGeometry height="50" width="90" x="109" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-22" parent="bim-Bf87GWusyt0ahSWG-64" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10" value="Потеря данных&#xa;[Значительный]" vertex="1">
+          <mxGeometry height="50" width="90" x="218" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-23" edge="1" parent="bim-Bf87GWusyt0ahSWG-64" source="bim-Bf87GWusyt0ahSWG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="102" y="54" />
+              <mxPoint x="47" y="54" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-24" edge="1" parent="bim-Bf87GWusyt0ahSWG-64" source="bim-Bf87GWusyt0ahSWG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="147" y="56" />
+              <mxPoint x="147" y="56" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-25" edge="1" parent="bim-Bf87GWusyt0ahSWG-64" source="bim-Bf87GWusyt0ahSWG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="187" y="54" />
+              <mxPoint x="263" y="54" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-66" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="147" width="520" x="93" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-2" parent="bim-Bf87GWusyt0ahSWG-66" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" value="Публичные данные" vertex="1">
+          <mxGeometry height="48" width="160" x="50" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-7" edge="1" parent="1" source="bim-Bf87GWusyt0ahSWG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bim-Bf87GWusyt0ahSWG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-72" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="137" width="290" x="78" y="267" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-6" parent="bim-Bf87GWusyt0ahSWG-72" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1" value="Риски" vertex="1">
+          <mxGeometry height="40" width="120" x="85" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-11" edge="1" parent="bim-Bf87GWusyt0ahSWG-72" source="bim-Bf87GWusyt0ahSWG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-12" edge="1" parent="bim-Bf87GWusyt0ahSWG-72" source="bim-Bf87GWusyt0ahSWG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-13" edge="1" parent="bim-Bf87GWusyt0ahSWG-72" source="bim-Bf87GWusyt0ahSWG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-8" parent="bim-Bf87GWusyt0ahSWG-72" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10" value="Искажение данных&#xa;[Значительный]" vertex="1">
+          <mxGeometry height="50" width="90" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-9" parent="bim-Bf87GWusyt0ahSWG-72" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10" value="Некачественные данные&#xa;[Значительный]" vertex="1">
+          <mxGeometry height="50" width="90" x="100" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-10" parent="bim-Bf87GWusyt0ahSWG-72" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10" value="Обесценивание данных&#xa;[Незначительный]" vertex="1">
+          <mxGeometry height="50" width="90" x="200" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;verticalAlign=top;fontSize=11" value="Каталог объектов недвижимости&#xa;Цены на квартиры&#xa;Планировки&#xa;Информация о ЖК" vertex="1">
+          <mxGeometry height="67.8" width="191" x="-110" y="241" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-5" edge="1" parent="1" source="bim-Bf87GWusyt0ahSWG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="bim-Bf87GWusyt0ahSWG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-73" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="150" width="100" x="-413" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-56" parent="bim-Bf87GWusyt0ahSWG-73" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=1" value="Легенда" vertex="1">
+          <mxGeometry height="30" width="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-57" parent="bim-Bf87GWusyt0ahSWG-73" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10" value="Критический" vertex="1">
+          <mxGeometry height="30" width="100" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-58" parent="bim-Bf87GWusyt0ahSWG-73" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10" value="Значительный" vertex="1">
+          <mxGeometry height="30" width="100" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bim-Bf87GWusyt0ahSWG-59" parent="bim-Bf87GWusyt0ahSWG-73" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10" value="Незначительный" vertex="1">
+          <mxGeometry height="30" width="100" y="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
